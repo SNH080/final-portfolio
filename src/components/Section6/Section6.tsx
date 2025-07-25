@@ -11,7 +11,7 @@ const Section6 = () => {
           </a>
         </div>
         <div className={`${styles.Category} ${styles.process}`}>
-          <a href="/section6_process/index.html" target="_blank">
+          <a href="./section6_process/index.html" target="_blank">
             process
           </a>
         </div>

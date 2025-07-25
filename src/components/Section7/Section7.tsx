@@ -59,12 +59,12 @@ const Section7 = () => {
       </div>
       <div className={styles.wrap_right}>
         <div className={`${styles.Category} ${styles.website}`}>
-          <a href="/section7_web/index.html" target="blank">
+          <a href="./section7_web/index.html" target="blank">
             website
           </a>
         </div>
         <div className={`${styles.Category} ${styles.process}`}>
-          <a href="/section7_process/index.html" target="_blank">
+          <a href="./section7_process/index.html" target="_blank">
             process
           </a>
         </div>

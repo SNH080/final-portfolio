@@ -6,12 +6,12 @@ const Section8 = () => {
     <div className={styles.container}>
       <div className={styles.wrap_lift}>
         <div className={`${styles.Category} ${styles.website}`}>
-          <a href="/section8_web/index.html" target="blank">
+          <a href="./section8_web/index.html" target="blank">
             website
           </a>
         </div>
         <div className={`${styles.Category} ${styles.process}`}>
-          <a href="/section8_process/index.html" target="_blank">
+          <a href="./section8_process/index.html" target="_blank">
             process
           </a>
         </div>
