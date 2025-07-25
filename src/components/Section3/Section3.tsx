@@ -11,18 +11,18 @@ const Section3 = () => {
         <a href="#section4" className={styles.island}>
           <div className={styles.imgWrapper}>
             <img
-              src="/images/island_about.png"
+              src="./images/island_about.png"
               alt="About me"
               className={styles.islandImg}
             />
             <div className={styles.iconWrap}>
               <img
-                src="/images/pin.png"
+                src="./images/pin.png"
                 alt="핀"
                 className={`${styles.icon} ${styles.pin}`}
               />
               <img
-                src="/images/plane.png"
+                src="./images/plane.png"
                 alt="비행기"
                 className={`${styles.icon} ${styles.plane}`}
               />
@@ -35,18 +35,18 @@ const Section3 = () => {
         <a href="#section5" className={styles.island}>
           <div className={styles.imgWrapper}>
             <img
-              src="/images/island_web.png"
+              src="./images/island_web.png"
               alt="Web site"
               className={styles.islandImg}
             />
             <div className={styles.iconWrap}>
               <img
-                src="/images/pin.png"
+                src="./images/pin.png"
                 alt="핀"
                 className={`${styles.icon} ${styles.pin}`}
               />
               <img
-                src="/images/plane.png"
+                src="./images/plane.png"
                 alt="비행기"
                 className={`${styles.icon} ${styles.plane}`}
               />
@@ -59,18 +59,18 @@ const Section3 = () => {
         <a href="#section9" className={styles.island}>
           <div className={styles.imgWrapper}>
             <img
-              src="/images/island_contact.png"
+              src="./images/island_contact.png"
               alt="Contact"
               className={styles.islandImg}
             />
             <div className={styles.iconWrap}>
               <img
-                src="/images/pin.png"
+                src="./images/pin.png"
                 alt="핀"
                 className={`${styles.icon} ${styles.pin}`}
               />
               <img
-                src="/images/plane.png"
+                src="./images/plane.png"
                 alt="비행기"
                 className={`${styles.icon} ${styles.plane}`}
               />
@@ -109,7 +109,7 @@ const Section3 = () => {
 
       <a href="#section4" className={styles.scroll_btn_wrap}>
         <div className={styles.scroll_btn}>
-          <img src="/images/mouse.png" alt="아래로 스크롤 버튼" />
+          <img src="./images/mouse.png" alt="아래로 스크롤 버튼" />
         </div>
       </a>
     </div>

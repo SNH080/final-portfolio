@@ -10,13 +10,13 @@ const Section7 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iPad.png"
+                src="./images/iPad.png"
                 alt="iPad"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/section7_inner_ipad.png"
+                  src="./images/section7_inner_ipad.png"
                   alt="iPad"
                 />
               </div>
@@ -26,13 +26,13 @@ const Section7 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iMac.png"
+                src="./images/iMac.png"
                 alt="iMac"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/section7_inner_imac.png"
+                  src="./images/section7_inner_imac.png"
                   alt="iMac"
                 />
               </div>
@@ -42,13 +42,13 @@ const Section7 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iPhone.png"
+                src="./images/iPhone.png"
                 alt="iPhone"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/section7_inner_iphone.png"
+                  src="./images/section7_inner_iphone.png"
                   alt="iPhone"
                 />
               </div>

@@ -10,13 +10,13 @@ const Section5 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iMac.png"
+                src="./images/iMac.png"
                 alt="iMac"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/cgv_imac.png"
+                  src="./images/cgv_imac.png"
                   alt="iMac"
                 />
               </div>
@@ -57,26 +57,26 @@ const Section5 = () => {
             <strong>Stack</strong>
             <div className={styles.skills_icons}>
               <div className={styles.skill_icon}>
-                <img src="/images/icon_react.webp" alt="react icon" />
+                <img src="./images/icon_react.webp" alt="react icon" />
                 <span className={styles.tooltip}>REACT</span>
               </div>
               <div className={styles.skill_icon}>
-                <img src="/images/icon_ts.webp" alt="ts icon" />
+                <img src="./images/icon_ts.webp" alt="ts icon" />
                 <span className={styles.tooltip}>Typescript</span>
               </div>
               <div className={styles.skill_icon}>
                 <img
-                  src="/images/icon_styled-component.webp"
+                  src="./images/icon_styled-component.webp"
                   alt="styled-component icon"
                 />
                 <span className={styles.tooltip}>styled-component</span>
               </div>
               <div className={styles.skill_icon}>
-                <img src="/images/icon_axios.png" alt="axios icon" />
+                <img src="./images/icon_axios.png" alt="axios icon" />
                 <span className={styles.tooltip}>axios</span>
               </div>
               <div className={styles.skill_icon}>
-                <img src="/images/icon_api.png" alt="api icon" />
+                <img src="./images/icon_api.png" alt="api icon" />
                 <span className={styles.tooltip}>api</span>
               </div>
             </div>

@@ -51,13 +51,13 @@ const Section6 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iPhone.png"
+                src="./images/iPhone.png"
                 alt="iPhone"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/section6_iphone.png"
+                  src="./images/section6_iphone.png"
                   alt="iPhone"
                 />
               </div>
@@ -67,13 +67,13 @@ const Section6 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iMac.png"
+                src="./images/iMac.png"
                 alt="iMac"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/section6_inner_imac.jpg"
+                  src="./images/section6_inner_imac.jpg"
                   alt="iMac"
                 />
               </div>
@@ -83,13 +83,13 @@ const Section6 = () => {
             <div className={styles.mockup_frame}>
               <img
                 className={styles.mockup_img}
-                src="/images/iPad.png"
+                src="./images/iPad.png"
                 alt="iPad"
               />
               <div className={styles.inner_frame}>
                 <img
                   className={styles.inner_img}
-                  src="/images/section6_ipad.png"
+                  src="./images/section6_ipad.png"
                   alt="iPad"
                 />
               </div>

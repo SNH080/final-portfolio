@@ -5,7 +5,7 @@ const Section9 = () => {
   return (
     <div className={styles.container}>
       <div style={{ flex: 1 }} className={styles.wrap_left}>
-        <img src="/images/section9_img.png" alt="section9_img" />
+        <img src="./images/section9_img.png" alt="section9_img" />
       </div>
       <div style={{ flex: 1 }} className={styles.wrap_right}>
         <div className={styles.text_top}>

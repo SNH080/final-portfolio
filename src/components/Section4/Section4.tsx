@@ -5,13 +5,13 @@ const Section4 = () => {
   return (
     <div
       className={styles.container}
-      style={{ backgroundImage: `url("/images/section4BgLine.png")` }}
+      style={{ backgroundImage: `url("./images/section4BgLine.png")` }}
     >
       <p className={styles.title}>PASSPORT TO PORTFOLIO</p>
       <div className={styles.cont_wrap}>
         <div className={styles.cont_wrap_top}>
           <div className={styles.cont_img}>
-            <img src="/images/myImage.png" alt="내이미지" />
+            <img src="./images/myImage.png" alt="내이미지" />
           </div>
           <div className={styles.cont_info}>
             <div className={styles.cont_text}>
@@ -50,60 +50,60 @@ const Section4 = () => {
               <div className={styles.skills_icons}>
                 <div className={styles.skill_row}>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_html.png" alt="html icon" />
+                    <img src="./images/icon_html.png" alt="html icon" />
                     <span className={styles.tooltip}>HTML</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_css.png" alt="css icon" />
+                    <img src="./images/icon_css.png" alt="css icon" />
                     <span className={styles.tooltip}>CSS</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_js.webp" alt="js icon" />
+                    <img src="./images/icon_js.webp" alt="js icon" />
                     <span className={styles.tooltip}>Javascript</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_react.webp" alt="react icon" />
+                    <img src="./images/icon_react.webp" alt="react icon" />
                     <span className={styles.tooltip}>REACT</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_sass.png" alt="sass icon" />
+                    <img src="./images/icon_sass.png" alt="sass icon" />
                     <span className={styles.tooltip}>SASS</span>
                   </div>
                   <div className={styles.skill_icon}>
                     <img
-                      src="/images/icon_styled-component.webp"
+                      src="./images/icon_styled-component.webp"
                       alt="styled-component icon"
                     />
                     <span className={styles.tooltip}>styled-component</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_axios.png" alt="axios icon" />
+                    <img src="./images/icon_axios.png" alt="axios icon" />
                     <span className={styles.tooltip}>axios</span>
                   </div>
                 </div>
                 <div className={styles.skill_row}>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_ts.webp" alt="ts icon" />
+                    <img src="./images/icon_ts.webp" alt="ts icon" />
                     <span className={styles.tooltip}>Typescript</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_ps.webp" alt="ps icon" />
+                    <img src="./images/icon_ps.webp" alt="ps icon" />
                     <span className={styles.tooltip}>Photoshop</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_ai.webp" alt="ai icon" />
+                    <img src="./images/icon_ai.webp" alt="ai icon" />
                     <span className={styles.tooltip}>Illustrator</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_figma.webp" alt="figma icon" />
+                    <img src="./images/icon_figma.webp" alt="figma icon" />
                     <span className={styles.tooltip}>Figma</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_github.png" alt="github icon" />
+                    <img src="./images/icon_github.png" alt="github icon" />
                     <span className={styles.tooltip}>Github</span>
                   </div>
                   <div className={styles.skill_icon}>
-                    <img src="/images/icon_api.png" alt="api icon" />
+                    <img src="./images/icon_api.png" alt="api icon" />
                     <span className={styles.tooltip}>api</span>
                   </div>
                 </div>
