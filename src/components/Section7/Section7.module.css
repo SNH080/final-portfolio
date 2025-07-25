@@ -1,0 +1,263 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.wrap_left {
+  flex: 6;
+  background-color: #94c1d6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
+}
+
+.mockup_wrap {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* 기본 설정 */
+.mockup_inner {
+  position: absolute;
+  margin-bottom: 20%;
+}
+
+.mockup_frame {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.mockup_img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.imac {
+  width: 35vw;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.imac .inner_frame {
+  top: 3%;
+  left: 2%;
+  width: 96%;
+  height: 65%;
+}
+
+.ipad {
+  width: 20vw;
+  bottom: 0;
+  left: -5%;
+  z-index: 3;
+}
+
+.ipad .inner_frame {
+  top: 6%;
+  left: 42%;
+  width: 52.2%;
+  height: 81.5%;
+}
+
+.ipad .inner_frame .inner_img {
+  width: 180%;
+  position: absolute;
+  left: -40%;
+}
+
+.iphone {
+  width: 13vw;
+  bottom: 0;
+  right: 13%;
+  z-index: 3;
+}
+
+.iphone .inner_frame {
+  top: 7%;
+  left: 54%;
+  width: 34%;
+  height: 75%;
+}
+
+.iphone .inner_frame .inner_img {
+  width: 200%;
+  position: absolute;
+  left: -50%;
+}
+
+.inner_frame {
+  position: absolute;
+  overflow: hidden;
+}
+
+.inner_img {
+  width: 100%;
+  /* position: absolute;
+  top: 100%;
+  left: 0;
+  transition: top 0.6s ease-in-out; */
+  transform: translateY(0%);
+  transition: transform 1s ease;
+}
+
+.imac .inner_frame:hover .inner_img {
+  transform: translateY(-81%);
+}
+.ipad .inner_frame:hover .inner_img {
+  transform: translateY(-79.5%);
+}
+.iphone .inner_frame:hover .inner_img {
+  transform: translateY(-69%);
+}
+
+.inner_bg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30%;
+  width: 100%;
+  background-color: #f6f6f6;
+  z-index: 1;
+}
+
+.wrap_right {
+  flex: 4;
+  background-color: #fff;
+  position: relative;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Category {
+  position: absolute;
+  left: -4.5rem;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 15px 15px 0 0;
+  transform: rotate(270deg);
+  color: #94c1d6;
+  font-weight: bold;
+  font-size: 1.1rem;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.Category a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.website {
+  top: 30%;
+}
+.process {
+  top: 60%;
+}
+
+.text_wrap {
+  color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.text_wrap h2 {
+  font-size: 2rem;
+  margin: 0;
+  color: #94c1d6;
+}
+
+.mine_title {
+  margin: 0;
+}
+
+.mine_title,
+.text_wrap .type,
+.text_wrap .info,
+.text_wrap .font,
+.text_wrap .color {
+  font-size: 0.8rem;
+  line-height: 1.6;
+}
+
+/* COLOR칩 스타일 */
+.color {
+  display: flex;
+  gap: 1rem;
+}
+.color div {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.color div:nth-child(1) {
+  background-color: #fff;
+  color: #bee2f0;
+  border: 1px solid #bee2f0;
+}
+.color div:nth-child(2) {
+  background-color: #0d0461;
+  color: #fff;
+}
+.color div:nth-child(3) {
+  background-color: #bee2f0;
+  color: #0d0461;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .wrap_left,
+  .wrap_right {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+  }
+
+  .mockup_wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mockup_inner {
+    margin: 1rem 0;
+    max-width: 70%;
+  }
+
+  .Category {
+    left: 0;
+    transform: rotate(0deg);
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+  }
+
+  .website {
+    top: 1rem;
+  }
+  .process {
+    top: 3.5rem;
+  }
+
+  .text_wrap h2 {
+    font-size: 1.5rem;
+  }
+
+  .color div {
+    font-size: 0.9rem;
+  }
+}

@@ -1,0 +1,234 @@
+/* 전체 뷰포트에 맞추기 */
+.container {
+  min-height: 100vh;
+  max-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 2rem 1rem;
+}
+
+/* 제목 */
+.title {
+  color: #121b5d;
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+/* 전체 내용 감싸는 컨테이너 */
+.cont_wrap {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 2rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+}
+
+/* 위쪽 콘텐츠 */
+.cont_wrap_top {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/* 왼쪽 이미지 영역 */
+.cont_img {
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.cont_img > img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* 오른쪽 정보 영역 */
+.cont_info {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* 텍스트 정보 묶음 */
+.cont_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* 각 항목 */
+.info_wrap {
+  flex: 1;
+  min-width: 140px;
+  padding: 1vw 0;
+  border-radius: 8px;
+}
+
+.info_title {
+  color: #111a5d;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.info_text {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.placeholder {
+  flex: 1;
+  min-width: 140px;
+  padding: 1vw 0;
+  visibility: hidden;
+}
+
+/* 스킬 아이콘 섹션 */
+.cont_skills {
+  margin-top: 1rem;
+}
+
+.skills_icons {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.skill_row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill_icon {
+  position: relative;
+  display: inline-block;
+}
+
+.skill_icon img {
+  width: 60px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.skill_icon img:hover {
+  transform: scale(1.1);
+}
+
+.tooltip {
+  position: absolute;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #121b5d;
+  color: white;
+  padding: 4px 8px;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  z-index: 99;
+}
+
+.skill_icon:hover .tooltip {
+  opacity: 1;
+}
+
+/* .skill_row img {
+  position: relative;
+  width: 60px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 15px;
+  box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.skill_row img::after {
+  content: attr(data-name);
+  position: absolute;
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #121b5d;
+  color: #fff;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.skill_row img:hover {
+  transform: scale(1.1);
+}
+
+.skill_row img:hover::after {
+  opacity: 1;
+} */
+
+/* 아래쪽 해시태그 텍스트 */
+.cont_wrap_bottom p {
+  font-size: 1.2rem;
+  margin: 1rem 0 0 0;
+  word-break: break-word;
+  line-height: 1.6;
+  text-align: left;
+}
+
+/* 📱 미디어 쿼리 - 반응형 대응 */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .info_title,
+  .info_text {
+    font-size: 1rem;
+  }
+
+  .cont_wrap {
+    padding: 1rem;
+  }
+
+  .skill_row img {
+    width: 48px;
+  }
+
+  .cont_wrap_bottom p {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,35 @@
+.fixedNav {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    z-index: 1000;
+  }
+  
+  .fixedNav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .fixedNav li {
+    padding: 10px;
+    position: relative;
+  }
+  
+  .fixedNav li a {
+    text-decoration: none;
+    color: #bbb;
+  }
+  
+  .active a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: #bbb;
+    width: calc(100% - 2px);
+    margin: 0 auto;
+    margin-top: -28px;
+    border-radius: 15px;
+  }
+  
