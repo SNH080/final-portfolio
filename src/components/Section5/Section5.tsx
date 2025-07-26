@@ -31,7 +31,11 @@ const Section5 = () => {
             website
           </a>
         </div>
-        <div className={`${styles.Category} ${styles.process}`}>process</div>
+        <div className={`${styles.Category} ${styles.process}`}>
+          <a href="./section5_process/index.html" target="_blank">
+            process
+          </a>
+        </div>
         <div className={styles.text_wrap}>
           <div>
             <h2>CGV</h2>
